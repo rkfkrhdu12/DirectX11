@@ -1,0 +1,47 @@
+﻿  main.cpp
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(52,19): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(52,8): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(52,21): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(6,15): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(9,2): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(9,15): error C2061: 구문 오류: 식별자 'SystemClass'
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(10,7): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(15,11): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(18,3): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(21,2): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(23,9): error C2065: 'System': 선언되지 않은 식별자입니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(23,2): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\main.cpp(24,2): error C2065: 'System': 선언되지 않은 식별자입니다.
+  SystemClass.cpp
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(52,19): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
+  (소스 파일 'SystemClass.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(52,8): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'SystemClass.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(52,21): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'SystemClass.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\SystemClass.cpp(29,3): error C2027: 정의되지 않은 형식 'UGraphicsClass'을(를) 사용했습니다.
+      C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(16,7):
+      'UGraphicsClass' 선언을 참조하십시오.
+  
+  코드를 생성하고 있습니다...
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\SystemClass.cpp(30,3): warning C4150: 불완전한 형식 'UGraphicsClass'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
+      C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(16,7):
+      'UGraphicsClass' 선언을 참조하십시오.
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\SystemClass.cpp(36,3): error C2027: 정의되지 않은 형식 'UInputClass'을(를) 사용했습니다.
+      C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(15,7):
+      'UInputClass' 선언을 참조하십시오.
+  
+C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\SystemClass.cpp(37,3): warning C4150: 불완전한 형식 'UInputClass'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
+      C:\Users\현\source\repos\DIrectX11_TutorialProject\DIrectX11_TutorialProject\Systemclass.h(15,7):
+      'UInputClass' 선언을 참조하십시오.
+  
