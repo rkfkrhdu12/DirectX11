@@ -1,12 +1,15 @@
 
-#include "Systemclass.h"
+#include "System/Systemclass.h"
+
+// 참고자료
+// https://ppparkje.tistory.com/ [빠재의 노트:티스토리]
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdLine, int iCmdShow)
 {
-	SystemClass* System;
+	USystemClass* System;
 	bool result;
 
-	System = new SystemClass;
+	System = new USystemClass();
 	if (!System)
 	{
 		return 0;
@@ -23,4 +26,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdLine,
 	delete System;
 	System = nullptr;
 
+	return 0;
 }

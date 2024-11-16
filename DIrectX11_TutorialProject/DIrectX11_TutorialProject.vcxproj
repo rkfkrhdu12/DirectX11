@@ -131,11 +131,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Graphics\GraphicsClass.cpp" />
+    <ClCompile Include="Input\InputClass.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SystemClass.cpp" />
+    <ClCompile Include="System\SystemClass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Systemclass.h" />
+    <ClInclude Include="Graphics\GraphicsClass.h" />
+    <ClInclude Include="Input\InputClass.h" />
+    <ClInclude Include="System\Systemclass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

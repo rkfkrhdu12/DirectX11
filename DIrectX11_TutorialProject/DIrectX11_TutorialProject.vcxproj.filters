@@ -24,13 +24,25 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SystemClass.cpp">
+    <ClCompile Include="System\SystemClass.cpp">
       <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsClass.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Systemclass.h">
+    <ClInclude Include="System\Systemclass.h">
       <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputClass.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsClass.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
