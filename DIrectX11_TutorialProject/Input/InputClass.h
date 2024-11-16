@@ -6,9 +6,9 @@
 class UInputClass
 {
 public:
-	UInputClass();
+	UInputClass() = default;
 	UInputClass(const UInputClass&);
-	~UInputClass();
+	~UInputClass() = default;
 
 	void Initialize();
 	void Shutdown();

@@ -1,14 +1,6 @@
 #include "InputClass.h"
 
-UInputClass::UInputClass()
-{
-}
-
 UInputClass::UInputClass(const UInputClass&)
-{
-}
-
-UInputClass::~UInputClass()
 {
 }
 

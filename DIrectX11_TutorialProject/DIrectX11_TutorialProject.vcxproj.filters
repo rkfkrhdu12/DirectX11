@@ -13,19 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="System">
-      <UniqueIdentifier>{5277204e-106c-408a-a77e-38746d325ed8}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="System\SystemClass.cpp">
-      <Filter>System</Filter>
     </ClCompile>
     <ClCompile Include="Input\InputClass.cpp">
       <Filter>소스 파일</Filter>
@@ -33,16 +24,28 @@
     <ClCompile Include="Graphics\GraphicsClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="System\SystemClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\D3DClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="System\Systemclass.h">
-      <Filter>System</Filter>
-    </ClInclude>
-    <ClInclude Include="Input\InputClass.h">
-      <Filter>System</Filter>
-    </ClInclude>
     <ClInclude Include="Graphics\GraphicsClass.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="System\Systemclass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\D3DClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

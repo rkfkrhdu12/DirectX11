@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\현\Documents\DirectX11\DIrectX11_TutorialProject\System\</FILEPATH>
+      <FILENAME>SystemClass.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'USystemClass::_applicationName' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>USystemClass::{ctor}</FUNCTION>
+    <DECORATED>??0USystemClass@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>USystemClass::_applicationName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\현\Documents\DirectX11\DIrectX11_TutorialProject\System\</FILEPATH>
+      <FILENAME>SystemClass.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'USystemClass::_hInstance' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>USystemClass::{ctor}</FUNCTION>
+    <DECORATED>??0USystemClass@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>USystemClass::_hInstance</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\현\Documents\DirectX11\DIrectX11_TutorialProject\System\</FILEPATH>
+      <FILENAME>SystemClass.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'USystemClass::_hWnd' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>USystemClass::{ctor}</FUNCTION>
+    <DECORATED>??0USystemClass@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>USystemClass::_hWnd</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

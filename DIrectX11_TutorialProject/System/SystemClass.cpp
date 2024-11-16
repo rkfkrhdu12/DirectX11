@@ -5,18 +5,7 @@
 #include "../Graphics/GraphicsClass.h"
 
 
-USystemClass::USystemClass()
-{
-	_input = 0;
-	_graphics = 0;
-
-}
-
 USystemClass::USystemClass(const USystemClass&)
-{
-}
-
-USystemClass::~USystemClass()
 {
 }
 
@@ -28,18 +17,12 @@ bool USystemClass::Initialize()
 	InitializeWindows(width, height);
 
 	_input = new UInputClass;
-	if (!_input)
-	{
-		return false;
-	}
+	if (!_input) return false;
 
 	_input->Initialize();
 
 	_graphics = new UGraphicsClass;
-	if (!_graphics)
-	{
-		return false;
-	}
+	if (!_graphics) return false;
 
 	result = _graphics->Initialize(width, height, _hWnd);
 	if (!result)

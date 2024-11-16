@@ -18,9 +18,9 @@ class UGraphicsClass;
 class USystemClass
 {
 public:
-	USystemClass();
+	USystemClass() = default;
 	USystemClass(const USystemClass&);
-	~USystemClass();
+	~USystemClass() = default;
 
 	bool Initialize();
 	void Shutdown();
@@ -38,8 +38,8 @@ private:
 	HINSTANCE _hInstance;
 	HWND _hWnd;
 
-	UInputClass* _input;
-	UGraphicsClass* _graphics;
+	UInputClass* _input = NULL;
+	UGraphicsClass* _graphics = NULL;
 
 };
 
