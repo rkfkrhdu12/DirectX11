@@ -5,7 +5,6 @@
 // Link //
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "d3d11.lib")
-#pragma comment(lib, "d3dx10.lib")
 
 // Include //
 #include <dxgi.h>
@@ -40,7 +39,7 @@ private:
 	bool _isVsyncEnabled = false;
 	bool _videoCardMemory = false;
 	char _videoCardDescription[128] = {0};
-	IDXGISwapChain* _swapchain = 0;
+	IDXGISwapChain* _swapChain = 0;
 	ID3D11Device* _device = 0;
 	ID3D11DeviceContext* _deviceContext = 0;
 	ID3D11RenderTargetView* _renderTargetView = 0;
