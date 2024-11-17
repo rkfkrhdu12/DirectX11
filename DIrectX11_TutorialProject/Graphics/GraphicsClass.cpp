@@ -1,5 +1,7 @@
 #include "GraphicsClass.h"
 
+#include <fstream>
+
 #include "D3DClass.h"
 
 UGraphicsClass::UGraphicsClass(const UGraphicsClass&)
@@ -20,6 +22,25 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 		return false;
 	}
 
+	char cardName[128];
+	int memSize = 0;
+
+	_d3d->GetVideoCardInfo(cardName, memSize);
+
+	if (cardName[0] != ' ')
+	{
+		std::ofstream file;
+		file.open("test.txt");
+		if (file.is_open())
+		{
+			file.write(cardName, strlen(cardName));
+			
+			sprintf_s(cardName, "\n%d", memSize);
+			file.write(cardName, strlen(cardName));
+		}
+
+		file.close();
+	}
 	return true;
 }
 
@@ -45,6 +66,8 @@ bool UGraphicsClass::Frame()
 bool UGraphicsClass::Render()
 {
 	_d3d->BeginScene(.5f, .5f, .5f, 1.0f);
+
+
 
 	_d3d->EndScene();
 

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\\uD604\\Documents\\DirectX11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,20 +11,24 @@
       "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Graphics\\D3DClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\System\\SystemClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\System\\SystemClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Input\\InputClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Input\\InputClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\D3DClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Graphics\\D3DClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Input\\InputClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Input\\InputClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\System\\SystemClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\System\\SystemClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\System\\Systemclass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,50 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GraphicsClass.h",
-              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
-              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
-              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
-              "RelativeToolTip": "DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-16T00:03:51.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "D3DClass.h",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\D3DClass.h",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Graphics\\D3DClass.h",
               "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\D3DClass.h",
               "RelativeToolTip": "DIrectX11_TutorialProject\\Graphics\\D3DClass.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAD4vygAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-16T02:21:43.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "D3DClass.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\D3DClass.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Graphics\\D3DClass.cpp",
               "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\D3DClass.cpp",
               "RelativeToolTip": "DIrectX11_TutorialProject\\Graphics\\D3DClass.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-16T02:22:10.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "InputClass.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Input\\InputClass.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Input\\InputClass.cpp",
@@ -97,11 +84,12 @@
               "RelativeToolTip": "DIrectX11_TutorialProject\\Input\\InputClass.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T23:59:18.24Z"
+              "WhenOpened": "2024-11-15T23:59:18.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SystemClass.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\System\\SystemClass.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\System\\SystemClass.cpp",
@@ -109,20 +97,32 @@
               "RelativeToolTip": "DIrectX11_TutorialProject\\System\\SystemClass.cpp",
               "ViewState": "AgIAAIIAAAAAAAAAAIAzwJoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T23:55:36.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T23:55:36.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GraphicsClass.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Graphics\\GraphicsClass.cpp",
               "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.cpp",
               "RelativeToolTip": "DIrectX11_TutorialProject\\Graphics\\GraphicsClass.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-16T00:03:57.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GraphicsClass.h",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Graphics\\GraphicsClass.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-16T00:03:51.493Z",
               "EditorCaption": ""
             },
             {
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\main.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\main.cpp",

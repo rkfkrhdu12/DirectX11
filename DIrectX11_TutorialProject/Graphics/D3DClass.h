@@ -37,7 +37,7 @@ public:
 
 private:
 	bool _isVsyncEnabled = false;
-	bool _videoCardMemory = false;
+	int _videoCardMemory = 0;
 	char _videoCardDescription[128] = {0};
 	IDXGISwapChain* _swapChain = 0;
 	ID3D11Device* _device = 0;
