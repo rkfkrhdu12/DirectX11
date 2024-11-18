@@ -131,15 +131,19 @@
     <ClCompile Include="Graphics\GraphicsClass.cpp" />
     <ClCompile Include="Input\InputClass.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModelClass.cpp" />
     <ClCompile Include="System\SystemClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\D3DClass.h" />
     <ClInclude Include="Graphics\GraphicsClass.h" />
     <ClInclude Include="Input\InputClass.h" />
+    <ClInclude Include="ModelClass.h" />
     <ClInclude Include="System\Systemclass.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Color.ps" />
+    <None Include="Color.vs" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
