@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <SourcePath>\Engine;$(SourcePath)</SourcePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -103,7 +106,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -127,24 +130,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Graphics\D3DClass.cpp" />
-    <ClCompile Include="Graphics\GraphicsClass.cpp" />
-    <ClCompile Include="Input\InputClass.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="ModelClass.cpp" />
-    <ClCompile Include="System\SystemClass.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Graphics\D3DClass.h" />
-    <ClInclude Include="Graphics\GraphicsClass.h" />
-    <ClInclude Include="Input\InputClass.h" />
-    <ClInclude Include="ModelClass.h" />
-    <ClInclude Include="System\Systemclass.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Color.ps" />
-    <None Include="Color.vs" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Graphics\CameraClass.cpp" />
+    <ClCompile Include="Engine\Graphics\ColorShaderClass.cpp" />
+    <ClCompile Include="Engine\Graphics\D3DClass.cpp" />
+    <ClCompile Include="Engine\Graphics\GraphicsClass.cpp" />
+    <ClCompile Include="Engine\Input\InputClass.cpp" />
+    <ClCompile Include="Engine\main.cpp" />
+    <ClCompile Include="Engine\System\SystemClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Graphics\CameraClass.h" />
+    <ClInclude Include="Engine\Graphics\ColorShaderClass.h" />
+    <ClInclude Include="Engine\Graphics\D3DClass.h" />
+    <ClInclude Include="Engine\Graphics\GraphicsClass.h" />
+    <ClInclude Include="Engine\Input\InputClass.h" />
+    <ClInclude Include="Engine\System\Systemclass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
