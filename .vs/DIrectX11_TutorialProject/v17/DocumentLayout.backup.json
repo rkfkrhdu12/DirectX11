@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\\uD604\\Documents\\DirectX11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Shader\\Color.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Shader\\Color.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,12 +43,12 @@
       "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +58,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraClass.cpp",
-              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
-              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
-              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
-              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-20T15:26:38.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CameraClass.h",
-              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
-              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
-              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
-              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-20T15:24:39.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ColorShaderClass.h",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h",
               "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h",
               "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-20T15:24:03.457Z"
+              "WhenOpened": "2024-11-20T15:24:03.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ColorShaderClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\ColorShaderClass.cpp",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T14:23:30.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T14:46:37.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\main.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\main.cpp",
               "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\main.cpp",
               "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-20T15:15:44.557Z"
+              "WhenOpened": "2024-11-20T15:15:44.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "D3DClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.cpp",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAAAE0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T14:58:39.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphicsClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T15:02:40.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GraphicsClass.h",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.h",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.h",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.h",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\GraphicsClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T14:38:18.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Color.vs",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Shader\\Color.vs",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Shader\\Color.vs",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Shader\\Color.vs",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Shader\\Color.vs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-21T15:26:05.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CameraClass.h",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T14:41:26.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\CameraClass.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-20T15:26:38.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "D3DClass.h",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.h",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.h",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.h",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\D3DClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T14:41:14.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModelClass.h",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.h",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.h",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.h",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Graphics\\ModelClass.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T14:42:03.586Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -8,7 +8,7 @@ bool UColorShaderClass::Initialize(ID3D11Device* device, HWND hWnd)
 {
 	bool result;
 
-	result = InitializeShader(device, hWnd, L"../Engine/Shader/color.vs", L"../Engine/Shader/color.ps");
+	result = InitializeShader(device, hWnd, L"Engine/Shader/color.vs", L"Engine/Shader/color.ps");
 	if (!result) return false;
 
 	return true;
@@ -178,7 +178,6 @@ bool UColorShaderClass::SetShaderParameters(ID3D11DeviceContext* deviceContext, 
 	D3D11_MAPPED_SUBRESOURCE mappedResource;
 	MatrixBufferType* dataPtr;
 	unsigned int bufferNumber;
-
 
 	D3DXMatrixTranspose(&worldMat, &worldMat);
 	D3DXMatrixTranspose(&viewMat, &viewMat);

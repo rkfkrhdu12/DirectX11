@@ -130,6 +130,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="Engine\Shader\Color.ps" />
+    <None Include="Engine\Shader\Color.vs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +142,7 @@
     <ClCompile Include="Engine\Input\InputClass.cpp" />
     <ClCompile Include="Engine\main.cpp" />
     <ClCompile Include="Engine\System\SystemClass.cpp" />
+    <ClCompile Include="Engine\Graphics\ModelClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Graphics\CameraClass.h" />
@@ -148,6 +151,7 @@
     <ClInclude Include="Engine\Graphics\GraphicsClass.h" />
     <ClInclude Include="Engine\Input\InputClass.h" />
     <ClInclude Include="Engine\System\Systemclass.h" />
+    <ClInclude Include="Engine\Graphics\ModelClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

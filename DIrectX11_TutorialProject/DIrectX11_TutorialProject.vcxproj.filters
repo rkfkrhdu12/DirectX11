@@ -16,6 +16,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Engine\Shader\Color.ps" />
+    <None Include="Engine\Shader\Color.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\Graphics\CameraClass.cpp">
@@ -39,6 +41,9 @@
     <ClCompile Include="Engine\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Engine\Graphics\ModelClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Graphics\CameraClass.h">
@@ -57,6 +62,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Engine\System\Systemclass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\ModelClass.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
