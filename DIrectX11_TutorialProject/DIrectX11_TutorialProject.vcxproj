@@ -132,26 +132,35 @@
   <ItemGroup>
     <None Include="Engine\Shader\Color.ps" />
     <None Include="Engine\Shader\Color.vs" />
+    <None Include="Engine\Shader\Texture.ps" />
+    <None Include="Engine\Shader\Texture.vs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Engine\Graphics\CameraClass.cpp" />
-    <ClCompile Include="Engine\Graphics\ColorShaderClass.cpp" />
-    <ClCompile Include="Engine\Graphics\D3DClass.cpp" />
-    <ClCompile Include="Engine\Graphics\GraphicsClass.cpp" />
-    <ClCompile Include="Engine\Input\InputClass.cpp" />
-    <ClCompile Include="Engine\main.cpp" />
-    <ClCompile Include="Engine\System\SystemClass.cpp" />
-    <ClCompile Include="Engine\Graphics\ModelClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\CameraClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\D3D\D3DClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\GraphicsClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\ModelClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\Shader\ColorShaderClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\Shader\TextureShaderClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\TextureClass.cpp" />
+    <ClCompile Include="Engine\Source\Input\InputClass.cpp" />
+    <ClCompile Include="Engine\Source\main.cpp" />
+    <ClCompile Include="Engine\Source\System\SystemClass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Engine\Graphics\CameraClass.h" />
-    <ClInclude Include="Engine\Graphics\ColorShaderClass.h" />
-    <ClInclude Include="Engine\Graphics\D3DClass.h" />
-    <ClInclude Include="Engine\Graphics\GraphicsClass.h" />
-    <ClInclude Include="Engine\Input\InputClass.h" />
-    <ClInclude Include="Engine\System\Systemclass.h" />
-    <ClInclude Include="Engine\Graphics\ModelClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\CameraClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\D3D\D3DClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\GraphicsClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\ModelClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\Shader\ColorShaderClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\Shader\TextureShaderClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\TextureClass.h" />
+    <ClInclude Include="Engine\Source\Input\InputClass.h" />
+    <ClInclude Include="Engine\Source\System\Systemclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Engine\Texture\SampleTexture.dds" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
