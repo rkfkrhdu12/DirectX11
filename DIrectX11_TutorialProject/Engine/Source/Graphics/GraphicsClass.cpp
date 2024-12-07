@@ -30,27 +30,10 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 	_camera = new ACameraClass();
 	if (!_camera) return false;
 
-	_camera->SetPosition(0.f, 0.f, -10.f);
+	_camera->SetPosition(3.f, 0.f, -10.f);
 
 	_model = new AModelClass();
 	if (!_model) return false;
-
-	//result = _model->Initialize(_d3d->GetDevice());
-	//if (!result)
-	//{
-	//	MessageBox(hWnd, L"Could not Initialize the model object", L"Error", MB_OK);
-	//	return false;
-	//}
-	//
-	//_colorShader = new UColorShaderClass;
-	//if (!_colorShader) return false;
-	//
-	//result = _colorShader->Initialize(_d3d->GetDevice(), hWnd);
-	//if (!result)
-	//{
-	//	MessageBox(hWnd, L"Could not Initialize the ColorShader Object", L"Error", MB_OK);
-	//	return false;
-	//}
 
 	result = _model->Initialize(_d3d->GetDevice(), L"SampleTexture.dds");
 	if (!result)
@@ -62,7 +45,7 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 	// ColorShader
 	_colorShader = new UColorShaderClass;
 	if (!_colorShader) return false;
-	
+
 	result = _colorShader->Initialize(_d3d->GetDevice(), hWnd);
 	if (!result)
 	{
@@ -131,7 +114,7 @@ bool UGraphicsClass::Render()
 	D3DXMATRIX worldMat, viewMat, projectionMat;
 	bool result;
 
-	_d3d->BeginScene(0.0f, 0.0f, 0.0f, 1.0f);
+	_d3d->BeginScene(1.0f, 1.0f, 1.0f, 1.0f);
 
 	_camera->Render();
 
@@ -139,15 +122,11 @@ bool UGraphicsClass::Render()
 	_d3d->GetWorldMatrix(worldMat);
 	_d3d->GetProjectionMatrix(projectionMat);
 
-	int i = 2;
-	//for (; i <= 2; ++i)
-	{
-		_model->Render(_d3d->GetDeviceContext(), i);
+	_model->Render(_d3d->GetDeviceContext());
 
-		result = _colorShader->Render(_d3d->GetDeviceContext(), _model->GetIndexCount(), worldMat, viewMat, projectionMat);
-		// result = _textureShader->Render(_d3d->GetDeviceContext(), _model->GetIndexCount(), worldMat, viewMat, projectionMat, _model->GetTexture());
-		if (!result) return false;
-	}
+	//result = _colorShader->Render(_d3d->GetDeviceContext(), _model->GetIndexCount(), worldMat, viewMat, projectionMat);
+	result = _textureShader->Render(_d3d->GetDeviceContext(), _model->GetIndexCount(), worldMat, viewMat, projectionMat, _model->GetTexture());
+	if (!result) return false;
 
 	_d3d->EndScene();
 

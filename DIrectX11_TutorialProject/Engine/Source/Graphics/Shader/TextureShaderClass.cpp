@@ -125,7 +125,8 @@ bool UTextureShaderClass::InitializeShader(ID3D11Device* device, HWND hWnd, WCHA
 	result = device->CreateBuffer(&matrixBufferDesc, NULL, &_matrixBuffer);
 	if (FAILED(result)) return false;
 
-	samplerDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;
+	//samplerDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;
+	samplerDesc.Filter = D3D11_FILTER_MAXIMUM_ANISOTROPIC;
 	samplerDesc.AddressU = D3D11_TEXTURE_ADDRESS_WRAP;
 	samplerDesc.AddressV = D3D11_TEXTURE_ADDRESS_WRAP;
 	samplerDesc.AddressW = D3D11_TEXTURE_ADDRESS_WRAP;

@@ -85,4 +85,7 @@
   <ItemGroup>
     <Image Include="Engine\Texture\SampleTexture.dds" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Engine\Source\Graphics\Shader\Error_shader.txt" />
+  </ItemGroup>
 </Project>

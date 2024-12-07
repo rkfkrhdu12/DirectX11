@@ -30,7 +30,6 @@ public:
 	bool Initialize(ID3D11Device*, WCHAR*);
 	void Shutdown();
 	void Render(ID3D11DeviceContext*);
-	void Render(ID3D11DeviceContext*, int);
 
 	int GetIndexCount();
 	ID3D11ShaderResourceView* GetTexture();
@@ -40,12 +39,10 @@ private:
 	void ShutdownBuffers();
 	void RenderBuffers(ID3D11DeviceContext*);
 
-	void RenderBuffers(ID3D11DeviceContext*, unsigned int);
-
 	bool LoadTexture(ID3D11Device*, WCHAR*);
 	void ReleaseTexture();
 private:
-	ID3D11Buffer* _vertexBuffer = 0, * _indexBuffer = 0;
+	ID3D11Buffer* _vertexBuffer = 0, *_vertexBuffer2 = 0, * _indexBuffer = 0;
 	int _vertexCount = 0, _indexCount = 0;
 
 	UTextureClass* _texture = 0;

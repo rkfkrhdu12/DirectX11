@@ -1,2 +1,3 @@
-﻿  GraphicsClass.cpp
+﻿  TextureShaderClass.cpp
+C:\Users\현\Documents\DirectX11\DIrectX11_TutorialProject\Engine\Source\Graphics\Shader\TextureShaderClass.cpp(190,42): warning C4244: '=': 'SIZE_T'에서 'unsigned long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   DIrectX11_TutorialProject.vcxproj -> C:\Users\현\Documents\DirectX11\x64\Debug\DIrectX11_TutorialProject.exe

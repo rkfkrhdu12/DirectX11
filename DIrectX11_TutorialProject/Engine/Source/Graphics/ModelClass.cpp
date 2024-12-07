@@ -31,11 +31,6 @@ void AModelClass::Render(ID3D11DeviceContext* deviceContext)
 	RenderBuffers(deviceContext);
 }
 
-void AModelClass::Render(ID3D11DeviceContext* deviceContext, int index)
-{
-	RenderBuffers(deviceContext, index);
-}
-
 int AModelClass::GetIndexCount()
 {
 	return _indexCount;
@@ -49,14 +44,13 @@ ID3D11ShaderResourceView* AModelClass::GetTexture()
 bool AModelClass::InitializeBuffers(ID3D11Device* device)
 {
 	VertexType* vertices;
-	VertexType_COLORSHADER* vertices2;
 	unsigned long* indices;
-	D3D11_BUFFER_DESC vertexBufferDesc, vertexBufferDesc2, indexBufferDesc;
-	D3D11_SUBRESOURCE_DATA vertexData, vertexData2, indexData;
+	D3D11_BUFFER_DESC vertexBufferDesc, indexBufferDesc;
+	D3D11_SUBRESOURCE_DATA vertexData, indexData;
 	HRESULT result;
 
-	_vertexCount = 3;
-	_indexCount = 3;
+	_vertexCount = 6;
+	_indexCount = 6;
 
 	vertices = new VertexType[_vertexCount];
 	if (!vertices) return false;
@@ -64,47 +58,32 @@ bool AModelClass::InitializeBuffers(ID3D11Device* device)
 	indices = new unsigned long[_indexCount];
 	if (!indices) return false;
 
-	vertices2 = new VertexType_COLORSHADER[_vertexCount];
-	if (!vertices) return false;
-
-	// ColorShader
-	vertices2[0].position = D3DXVECTOR3(-1.f, -1.f, 0.f);
-	vertices2[0].color = D3DXVECTOR4(1.f, 0.f, 0.f, 1.f);
-
-	vertices2[1].position = D3DXVECTOR3(1.f, 1.f, 0.f);
-	vertices2[1].color = D3DXVECTOR4(1.f, 0.f, 0.f, 1.f);
-
-	vertices2[2].position = D3DXVECTOR3(-1.f, -1.f, 0.f);
-	vertices2[2].color = D3DXVECTOR4(1.f, 0.f, 0.f, 1.f);
-
-	vertexBufferDesc2.Usage = D3D11_USAGE_DEFAULT;
-	vertexBufferDesc2.ByteWidth = sizeof(VertexType) * _vertexCount;
-	vertexBufferDesc2.BindFlags = D3D11_BIND_VERTEX_BUFFER;
-	vertexBufferDesc2.CPUAccessFlags = 0;
-	vertexBufferDesc2.MiscFlags = 0;
-	vertexBufferDesc2.StructureByteStride = 0;
-
-	vertexData2.pSysMem = vertices;
-	vertexData2.SysMemPitch = 0;
-	vertexData2.SysMemSlicePitch = 0;
-
-	result = device->CreateBuffer(&vertexBufferDesc2, &vertexData2, &_vertexBuffer);
-	if (FAILED(result)) return false;
-
-	//
-
-	vertices[0].position = D3DXVECTOR3(-1.0f, -1.0f, 0.0f);  // Bottom left.
+	vertices[0].position = D3DXVECTOR3(-2.0f, -2.0f, 0.0f);  // Bottom left.
 	vertices[0].texture = D3DXVECTOR2(0.0f, 1.0f);
 
-	vertices[1].position = D3DXVECTOR3(1.0f, 1.0f, 0.0f);  // Top middle.
-	vertices[1].texture = D3DXVECTOR2(0.5f, 0.0f);
+	vertices[1].position = D3DXVECTOR3(2.0f, 2.0f, 0.0f);  // Top middle.
+	vertices[1].texture = D3DXVECTOR2(1.f, 0.0f);
 
-	vertices[2].position = D3DXVECTOR3(1.0f, -1.0f, 0.0f);  // Bottom right.
+	vertices[2].position = D3DXVECTOR3(2.0f, -2.0f, 0.0f);  // Bottom right.
 	vertices[2].texture = D3DXVECTOR2(1.0f, 1.0f);
+
+
+	vertices[3].position = D3DXVECTOR3(-2.0f, -2.0f, 0.0f);  // Bottom left.
+	vertices[3].texture = D3DXVECTOR2(0.0f, 1.0f);
+
+	vertices[4].position = D3DXVECTOR3(-2.0f, 2.0f, 0.0f);  // Top Left
+	vertices[4].texture = D3DXVECTOR2(0.f, 0.0f);
+
+	vertices[5].position = D3DXVECTOR3(2.0f, 2.0f, 0.0f);  // Top right.
+	vertices[5].texture = D3DXVECTOR2(1.0f, 0.0f);
+
 
 	indices[0] = 0;  // Bottom left.
 	indices[1] = 1;  // Top middle.
 	indices[2] = 2;  // Bottom right.
+	indices[3] = 3;
+	indices[4] = 4;
+	indices[5] = 5;
 
 	vertexBufferDesc.Usage = D3D11_USAGE_DEFAULT;
 	vertexBufferDesc.ByteWidth = sizeof(VertexType) * _vertexCount;
@@ -138,9 +117,6 @@ bool AModelClass::InitializeBuffers(ID3D11Device* device)
 	delete[] vertices;
 	vertices = 0;
 
-	delete[] vertices2;
-	vertices2 = 0;
-
 	delete[] indices;
 	indices = 0;
 
@@ -171,21 +147,6 @@ void AModelClass::RenderBuffers(ID3D11DeviceContext* deviceContext)
 	offset = 0;
 
 	deviceContext->IASetVertexBuffers(0, 1, &_vertexBuffer, &stride, &offset);
-
-	deviceContext->IASetIndexBuffer(_indexBuffer, DXGI_FORMAT_R32_UINT, 0);
-
-	deviceContext->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
-}
-
-void AModelClass::RenderBuffers(ID3D11DeviceContext* deviceContext, unsigned int bufferIndex)
-{
-	unsigned int stride;
-	unsigned int offset;
-
-	stride = sizeof(VertexType);
-	offset = 0;
-
-	deviceContext->IASetVertexBuffers(0, bufferIndex, &_vertexBuffer, &stride, &offset);
 
 	deviceContext->IASetIndexBuffer(_indexBuffer, DXGI_FORMAT_R32_UINT, 0);
 
