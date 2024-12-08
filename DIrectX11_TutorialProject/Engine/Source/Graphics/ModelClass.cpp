@@ -49,8 +49,8 @@ bool AModelClass::InitializeBuffers(ID3D11Device* device)
 	D3D11_SUBRESOURCE_DATA vertexData, indexData;
 	HRESULT result;
 
-	_vertexCount = 6;
-	_indexCount = 6;
+	_vertexCount = 3;
+	_indexCount = 3;
 
 	vertices = new VertexType[_vertexCount];
 	if (!vertices) return false;
@@ -58,32 +58,39 @@ bool AModelClass::InitializeBuffers(ID3D11Device* device)
 	indices = new unsigned long[_indexCount];
 	if (!indices) return false;
 
-	vertices[0].position = D3DXVECTOR3(-2.0f, -2.0f, 0.0f);  // Bottom left.
-	vertices[0].texture = D3DXVECTOR2(0.0f, 1.0f);
+	int arrIndex = 0;
+	vertices[arrIndex].position = D3DXVECTOR3(-2.0f, -2.0f, 0.0f);  // Bottom left.
+	vertices[arrIndex].texture = D3DXVECTOR2(0.0f, 1.0f);
+	vertices[arrIndex++].normal = D3DXVECTOR3(0.0f, 0.0f, -1.f);
 
-	vertices[1].position = D3DXVECTOR3(2.0f, 2.0f, 0.0f);  // Top middle.
-	vertices[1].texture = D3DXVECTOR2(1.f, 0.0f);
+	vertices[arrIndex].position = D3DXVECTOR3(2.0f, 2.0f, 0.0f);  // Top middle.
+	vertices[arrIndex].texture = D3DXVECTOR2(1.f, 0.0f);
+	vertices[arrIndex++].normal = D3DXVECTOR3(0.0f, 0.0f, -1.f);
 
-	vertices[2].position = D3DXVECTOR3(2.0f, -2.0f, 0.0f);  // Bottom right.
-	vertices[2].texture = D3DXVECTOR2(1.0f, 1.0f);
+	vertices[arrIndex].position = D3DXVECTOR3(2.0f, -2.0f, 0.0f);  // Bottom right.
+	vertices[arrIndex].texture = D3DXVECTOR2(1.0f, 1.0f);
+	vertices[arrIndex++].normal = D3DXVECTOR3(0.0f, 0.0f, -1.f);
 
 
-	vertices[3].position = D3DXVECTOR3(-2.0f, -2.0f, 0.0f);  // Bottom left.
-	vertices[3].texture = D3DXVECTOR2(0.0f, 1.0f);
+	//vertices[arrIndex].position = D3DXVECTOR3(-2.0f, -2.0f, 0.0f);  // Bottom left.
+	//vertices[arrIndex].texture = D3DXVECTOR2(0.0f, 1.0f);
+	//vertices[arrIndex++].normal = D3DXVECTOR3(0.0f, 0.0f, -1.f);
 
-	vertices[4].position = D3DXVECTOR3(-2.0f, 2.0f, 0.0f);  // Top Left
-	vertices[4].texture = D3DXVECTOR2(0.f, 0.0f);
+	//vertices[arrIndex].position = D3DXVECTOR3(-2.0f, 2.0f, 0.0f);  // Top Left
+	//vertices[arrIndex].texture = D3DXVECTOR2(0.f, 0.0f);
+	//vertices[arrIndex++].normal = D3DXVECTOR3(0.0f, 0.0f, -1.f);
 
-	vertices[5].position = D3DXVECTOR3(2.0f, 2.0f, 0.0f);  // Top right.
-	vertices[5].texture = D3DXVECTOR2(1.0f, 0.0f);
+	//vertices[arrIndex].position = D3DXVECTOR3(2.0f, 2.0f, 0.0f);  // Top right.
+	//vertices[arrIndex].texture = D3DXVECTOR2(1.0f, 0.0f);
+	//vertices[arrIndex++].normal = D3DXVECTOR3(0.0f, 0.0f, -1.f);
 
 
 	indices[0] = 0;  // Bottom left.
 	indices[1] = 1;  // Top middle.
 	indices[2] = 2;  // Bottom right.
-	indices[3] = 3;
+	/*indices[3] = 3;
 	indices[4] = 4;
-	indices[5] = 5;
+	indices[5] = 5;*/
 
 	vertexBufferDesc.Usage = D3D11_USAGE_DEFAULT;
 	vertexBufferDesc.ByteWidth = sizeof(VertexType) * _vertexCount;
@@ -158,10 +165,7 @@ bool AModelClass::LoadTexture(ID3D11Device* device, WCHAR* fileName)
 	bool result;
 
 	_texture = new UTextureClass;
-	if (!_texture)
-	{
-		return false;
-	}
+	if (!_texture) return false;
 
 	result = _texture->Initialize(device, fileName);
 	if (!result) return false;

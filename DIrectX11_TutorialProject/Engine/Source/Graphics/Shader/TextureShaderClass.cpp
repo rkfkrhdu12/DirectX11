@@ -218,14 +218,10 @@ bool UTextureShaderClass::SetShaderParameters(ID3D11DeviceContext* deviceContext
 	D3DXMatrixTranspose(&projectionMat, &projectionMat);
 
 	result = deviceContext->Map(_matrixBuffer, 0, D3D11_MAP_WRITE_DISCARD, 0, &mappedResource);
-	if (FAILED(result))
-	{
-		return false;
-	}
+	if (FAILED(result)) return false;
 
 	dataPtr = (MatrixBufferType*)mappedResource.pData;
 
-	// Copy the matrices into the constant buffer.
 	dataPtr->world = worldMat;
 	dataPtr->view = viewMat;
 	dataPtr->projection = projectionMat;

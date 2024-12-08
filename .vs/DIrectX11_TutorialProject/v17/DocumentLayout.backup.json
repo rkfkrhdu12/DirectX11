@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\\uD604\\Documents\\DirectX11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\TextureShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\TextureShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GraphicsClass.cpp",
-              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
-              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
-              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
-              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T13:55:47.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TextureShaderClass.cpp",
-              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\TextureShaderClass.cpp",
-              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\TextureShaderClass.cpp",
-              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\TextureShaderClass.cpp",
-              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\TextureShaderClass.cpp",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
+              "Title": "LightShaderClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T13:55:42.162Z",
+              "WhenOpened": "2024-12-08T14:24:56.534Z",
               "EditorCaption": ""
             }
           ]

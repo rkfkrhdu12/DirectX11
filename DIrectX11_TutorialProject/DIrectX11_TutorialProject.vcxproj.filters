@@ -20,6 +20,8 @@
     <None Include="Engine\Shader\Color.vs" />
     <None Include="Engine\Shader\Texture.vs" />
     <None Include="Engine\Shader\Texture.ps" />
+    <None Include="Engine\Shader\Light.vs" />
+    <None Include="Engine\Shader\Light.ps" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\Source\Graphics\D3D\D3DClass.cpp">
@@ -52,6 +54,12 @@
     <ClCompile Include="Engine\Source\Graphics\Shader\TextureShaderClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Engine\Source\Graphics\LightClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Graphics\Shader\LightShaderClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Source\Graphics\D3D\D3DClass.h">
@@ -81,11 +89,17 @@
     <ClInclude Include="Engine\Source\Graphics\Shader\TextureShaderClass.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Engine\Source\Graphics\Shader\LightShaderClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Graphics\LightClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Engine\Texture\SampleTexture.dds" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Engine\Source\Graphics\Shader\Error_shader.txt" />
+    <Text Include="Error_shader.txt" />
   </ItemGroup>
 </Project>

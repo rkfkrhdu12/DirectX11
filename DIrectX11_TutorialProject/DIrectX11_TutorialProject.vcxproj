@@ -132,6 +132,8 @@
   <ItemGroup>
     <None Include="Engine\Shader\Color.ps" />
     <None Include="Engine\Shader\Color.vs" />
+    <None Include="Engine\Shader\Light.ps" />
+    <None Include="Engine\Shader\Light.vs" />
     <None Include="Engine\Shader\Texture.ps" />
     <None Include="Engine\Shader\Texture.vs" />
     <None Include="packages.config" />
@@ -140,8 +142,10 @@
     <ClCompile Include="Engine\Source\Graphics\CameraClass.cpp" />
     <ClCompile Include="Engine\Source\Graphics\D3D\D3DClass.cpp" />
     <ClCompile Include="Engine\Source\Graphics\GraphicsClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\LightClass.cpp" />
     <ClCompile Include="Engine\Source\Graphics\ModelClass.cpp" />
     <ClCompile Include="Engine\Source\Graphics\Shader\ColorShaderClass.cpp" />
+    <ClCompile Include="Engine\Source\Graphics\Shader\LightShaderClass.cpp" />
     <ClCompile Include="Engine\Source\Graphics\Shader\TextureShaderClass.cpp" />
     <ClCompile Include="Engine\Source\Graphics\TextureClass.cpp" />
     <ClCompile Include="Engine\Source\Input\InputClass.cpp" />
@@ -152,8 +156,10 @@
     <ClInclude Include="Engine\Source\Graphics\CameraClass.h" />
     <ClInclude Include="Engine\Source\Graphics\D3D\D3DClass.h" />
     <ClInclude Include="Engine\Source\Graphics\GraphicsClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\LightClass.h" />
     <ClInclude Include="Engine\Source\Graphics\ModelClass.h" />
     <ClInclude Include="Engine\Source\Graphics\Shader\ColorShaderClass.h" />
+    <ClInclude Include="Engine\Source\Graphics\Shader\LightShaderClass.h" />
     <ClInclude Include="Engine\Source\Graphics\Shader\TextureShaderClass.h" />
     <ClInclude Include="Engine\Source\Graphics\TextureClass.h" />
     <ClInclude Include="Engine\Source\Input\InputClass.h" />
@@ -163,7 +169,7 @@
     <Image Include="Engine\Texture\SampleTexture.dds" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Engine\Source\Graphics\Shader\Error_shader.txt" />
+    <Text Include="Error_shader.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

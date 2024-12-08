@@ -11,6 +11,9 @@ class UD3DClass;
 
 class UColorShaderClass;
 class UTextureShaderClass;
+class ULightShaderClass;
+
+class ULightClass;
 
 class ACameraClass;
 class AModelClass;
@@ -35,6 +38,7 @@ public:
 	void Shutdown();
 	bool Frame();
 private:
+	bool Render(float);
 	bool Render();
 
 private:
@@ -46,6 +50,9 @@ private:
 
 	UColorShaderClass* _colorShader = 0;
 	UTextureShaderClass* _textureShader = 0;
+	ULightShaderClass* _lightShader = 0;
+
+	ULightClass* _light = 0;
 };
 
 #endif  // ! _GRAPHICSCLASS_H_
