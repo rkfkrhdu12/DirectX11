@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\\uD604\\Documents\\DirectX11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BD1FD998-2271-4A38-8C96-65F144530559}|DIrectX11_TutorialProject\\DIrectX11_TutorialProject.vcxproj|solutionrelative:DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ModelClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.cpp",
+              "ViewState": "AgIAACMBAAAAAAAAAAAcwDUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:30:46.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelClass.h",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.h",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.h",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.h",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\ModelClass.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAxwDkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-12T15:29:23.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphicsClass.cpp",
+              "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
+              "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
+              "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
+              "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\GraphicsClass.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:22:45.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LightShaderClass.cpp",
               "DocumentMoniker": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
               "RelativeDocumentMoniker": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
               "ToolTip": "C:\\Users\\\uD604\\Documents\\DirectX11\\DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
               "RelativeToolTip": "DIrectX11_TutorialProject\\Engine\\Source\\Graphics\\Shader\\LightShaderClass.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-08T14:24:56.534Z",
               "EditorCaption": ""

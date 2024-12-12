@@ -5,6 +5,9 @@
 // Include //
 #include <d3d11.h>
 #include <D3DX10math.h>
+#include <fstream>
+
+using namespace std;
 
 class UTextureClass;
 
@@ -17,6 +20,13 @@ private:
 		D3DXVECTOR4 color;
 	};
 	
+	struct ModelType
+	{
+		float x, y, z;
+		float tu, tv;
+		float nx, ny, nz;
+	};
+
 	struct VertexType
 	{
 		D3DXVECTOR3 position;
@@ -29,6 +39,7 @@ public:
 	AModelClass(const AModelClass&);
 
 	bool Initialize(ID3D11Device*, WCHAR*);
+	bool Initialize(ID3D11Device*, char*,  WCHAR*);
 	void Shutdown();
 	void Render(ID3D11DeviceContext*);
 
@@ -42,11 +53,15 @@ private:
 
 	bool LoadTexture(ID3D11Device*, WCHAR*);
 	void ReleaseTexture();
+
+	bool LoadModel(char*);
+	void ReleaseModel();
 private:
 	ID3D11Buffer* _vertexBuffer = 0, *_vertexBuffer2 = 0, * _indexBuffer = 0;
 	int _vertexCount = 0, _indexCount = 0;
 
 	UTextureClass* _texture = 0;
+	ModelType* _model = 0;
 };
 
 #endif // !_MODELCLASS_H_

@@ -38,7 +38,7 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 	_model = new AModelClass();
 	if (!_model) return false;
 
-	result = _model->Initialize(_d3d->GetDevice(), L"Engine/Texture/SampleTexture.dds");
+	result = _model->Initialize(_d3d->GetDevice(), "Engine/Model/cube.txt", L"Engine/Texture/SampleTexture.dds");
 	if (!result)
 	{
 		MessageBox(hWnd, L"Could not initialize the model object.", L"Error", MB_OK);
@@ -81,7 +81,7 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 	_light = new ULightClass;
 	if (!_light) return false;
 
-	_light->SetDiffuseColor(1.f, 0.f, 1.f, 1.f);
+	_light->SetDiffuseColor(1.f, 1.f, 1.f, 1.f);
 	_light->SetDirection(0.f, 0.f, 1.f);
 
 	return true;
@@ -141,7 +141,7 @@ bool UGraphicsClass::Frame()
 {
 	static float rotation = 0.f;
 
-	rotation += (float)D3DX_PI * 0.01f;
+	rotation += (float)D3DX_PI * 0.005f;
 	if (rotation >= 360.f)
 	{
 		rotation -= 360.f;
