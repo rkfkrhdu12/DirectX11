@@ -163,6 +163,7 @@
     <ClInclude Include="Engine\Source\Graphics\Shader\TextureShaderClass.h" />
     <ClInclude Include="Engine\Source\Graphics\TextureClass.h" />
     <ClInclude Include="Engine\Source\Input\InputClass.h" />
+    <ClInclude Include="Engine\Source\Other\CoordConvertor.h" />
     <ClInclude Include="Engine\Source\System\Systemclass.h" />
   </ItemGroup>
   <ItemGroup>

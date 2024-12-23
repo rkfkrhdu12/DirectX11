@@ -1,6 +1,8 @@
 
 #include "System/Systemclass.h"
 
+#include "Other/CoordConvertor.h"
+
 // 참고자료
 // https://ppparkje.tistory.com/ [빠재의 노트:티스토리]
 
@@ -15,10 +17,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdLine,
 		return 0;
 	}
 
+	Execute();
 	result = System->Initialize();
-	if (result)
+	//if (result)
 	{
-		System->Run();
+		//System->Run();
 	}
 
 	System->Shutdown();

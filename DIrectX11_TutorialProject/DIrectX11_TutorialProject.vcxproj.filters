@@ -95,6 +95,9 @@
     <ClInclude Include="Engine\Source\Graphics\LightClass.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Engine\Source\Other\CoordConvertor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Engine\Texture\SampleTexture.dds" />

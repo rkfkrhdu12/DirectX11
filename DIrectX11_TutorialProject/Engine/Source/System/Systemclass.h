@@ -34,9 +34,9 @@ private:
 	void ShutdownWinwdows();
 
 private:
-	LPCWSTR _applicationName;
-	HINSTANCE _hInstance;
-	HWND _hWnd;
+	LPCWSTR _applicationName = L"";
+	HINSTANCE _hInstance = 0;
+	HWND _hWnd = 0;
 
 	UInputClass* _input = NULL;
 	UGraphicsClass* _graphics = NULL;
