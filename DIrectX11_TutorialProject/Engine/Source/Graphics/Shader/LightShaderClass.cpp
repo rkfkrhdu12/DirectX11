@@ -19,15 +19,16 @@ void ULightShaderClass::Shutdown()
 	ShutdownShader();
 }
 
-bool ULightShaderClass::Render(ID3D11DeviceContext* deviceContext, int indexCount, 
-	D3DXMATRIX worldMat, D3DXMATRIX viewMat, D3DXMATRIX projectionMat, 
-	ID3D11ShaderResourceView* texture, 
-	D3DXVECTOR3 lightDirection, D3DXVECTOR4 diffuseColor)
+bool ULightShaderClass::Render(ID3D11DeviceContext* deviceContext, int indexCount, D3DXMATRIX worldMatrix, D3DXMATRIX viewMatrix,
+	D3DXMATRIX projectionMatrix, ID3D11ShaderResourceView* texture,
+	D3DXVECTOR3 lightDirection, D3DXVECTOR4 ambientColor,
+	D3DXVECTOR4 diffuseColor)
 {
 	bool result;
 
-	result = SetShaderParameters(deviceContext, worldMat, viewMat, projectionMat,
-		texture, lightDirection, diffuseColor);
+	result = SetShaderParameters(deviceContext,
+		worldMatrix, viewMatrix, projectionMatrix,
+		texture, lightDirection, ambientColor, diffuseColor);
 	if (!result) return false;
 
 	RenderShader(deviceContext, indexCount);
@@ -49,8 +50,10 @@ bool ULightShaderClass::InitializeShader(ID3D11Device* device, HWND hWnd, WCHAR*
 	ID3D10Blob* pixelShaderBuffer = 0;
 
 	HRESULT result;
-	result = D3DX11CompileFromFile(vsFileName, NULL, NULL, "LightVertexShader", "vs_5_0",
-		D3D10_SHADER_ENABLE_STRICTNESS, 0, NULL, &vertexShaderBuffer, &errorMessage, NULL);
+	result = D3DX11CompileFromFile(vsFileName, NULL, NULL,
+		"LightVertexShader", "vs_5_0",
+		D3D10_SHADER_ENABLE_STRICTNESS, 0, NULL,
+		&vertexShaderBuffer, &errorMessage, NULL);
 	if (FAILED(result))
 	{
 		if (errorMessage)
@@ -60,7 +63,9 @@ bool ULightShaderClass::InitializeShader(ID3D11Device* device, HWND hWnd, WCHAR*
 		return false;
 	}
 
-	result = D3DX11CompileFromFile(psFileName, NULL, NULL, "LightPixelShader", "ps_5_0", D3D10_SHADER_ENABLE_STRICTNESS, 0, NULL,
+	result = D3DX11CompileFromFile(psFileName, NULL, NULL,
+		"LightPixelShader", "ps_5_0",
+		D3D10_SHADER_ENABLE_STRICTNESS, 0, NULL,
 		&pixelShaderBuffer, &errorMessage, NULL);
 	if (FAILED(result))
 	{
@@ -215,7 +220,10 @@ void ULightShaderClass::OutputShaderErrorMessage(ID3D10Blob* errorMessage, HWND 
 	MessageBox(hWnd, L"Error compiling shader.  Check shader-error.txt for message.", shaderFilename, MB_OK);
 }
 
-bool ULightShaderClass::SetShaderParameters(ID3D11DeviceContext* deviceContext, D3DXMATRIX worldMat, D3DXMATRIX viewMat, D3DXMATRIX projectionMat, ID3D11ShaderResourceView* texture, D3DXVECTOR3 lightDirection, D3DXVECTOR4 diffuseColor)
+bool ULightShaderClass::SetShaderParameters(ID3D11DeviceContext* deviceContext,
+	D3DXMATRIX worldMat, D3DXMATRIX viewMat, D3DXMATRIX projectionMat,
+	ID3D11ShaderResourceView* texture,
+	D3DXVECTOR3 lightDirection, D3DXVECTOR4 ambientColor, D3DXVECTOR4 diffuseColor)
 {
 	HRESULT result;
 	D3D11_MAPPED_SUBRESOURCE mappedResource;
@@ -249,6 +257,7 @@ bool ULightShaderClass::SetShaderParameters(ID3D11DeviceContext* deviceContext, 
 
 	dataPtr2 = (LightBufferType*)mappedResource.pData;
 
+	dataPtr2->ambientColor = ambientColor;
 	dataPtr2->diffuseColor = diffuseColor;
 	dataPtr2->lightDirection = lightDirection;
 	dataPtr2->padding = 0.0f;

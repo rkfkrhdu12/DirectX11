@@ -38,7 +38,7 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 	_model = new AModelClass();
 	if (!_model) return false;
 
-	result = _model->Initialize(_d3d->GetDevice(), "Engine/Model/cube.txt", L"Engine/Texture/SampleTexture.dds");
+	result = _model->Initialize(_d3d->GetDevice(), "Engine/Model/model.txt", L"Engine/Texture/SampleTexture.dds");
 	if (!result)
 	{
 		MessageBox(hWnd, L"Could not initialize the model object.", L"Error", MB_OK);
@@ -81,6 +81,7 @@ bool UGraphicsClass::Initialize(int width, int height, HWND hWnd)
 	_light = new ULightClass;
 	if (!_light) return false;
 
+	_light->SetAmbientColor(0.15f, 0.15f, 0.15f, 1.f);
 	_light->SetDiffuseColor(1.f, 1.f, 1.f, 1.f);
 	_light->SetDirection(0.f, 0.f, 1.f);
 
@@ -169,7 +170,7 @@ bool UGraphicsClass::Render(float rotation)
 
 	result = _lightShader->Render(_d3d->GetDeviceContext(), 
 		_model->GetIndexCount(), worldMatrix, viewMatrix, projectionMatrix,
-		_model->GetTexture(), _light->GetDirection(), _light->GetDiffuseColor());
+		_model->GetTexture(), _light->GetDirection(), _light->GetAmbientColor(), _light->GetDiffuseColor());
 
 	//result = _textureShader->Render(_d3d->GetDeviceContext(), _model->GetIndexCount()
 	//	, worldMatrix, viewMatrix, projectionMatrix, _model->GetTexture());
